@@ -19,3 +19,5 @@ class LolcatViewer
     nil
   end
 end
+
+LolcatViewer.run(2)
