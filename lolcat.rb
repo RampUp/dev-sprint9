@@ -26,6 +26,7 @@ class LolCatViewer
     while $i < cat_indexor do
       cat = cat_indexor[$i].pop
       puts "Title:#{cat['alt']} Link: http://www.lolcats.com#{cat['src']}"
+      $i += 1
 
     end
   end
